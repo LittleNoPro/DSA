@@ -1,12 +1,12 @@
 from random import *
 
 # Random 10 arrays
-with open("input.txt", "w") as file:
+with open("/home/team/DSA/Sorting Report/input.txt", "w") as file:
     for i in range(10):
         n = randint(700000, 1000000)
         lst = []
         for j in range(n):
-            lst.append(randint(1, 1000000))
+            lst.append(randint(1, 100000))
 
         if i == 0:
             lst.sort()
